@@ -1,0 +1,195 @@
+@charset "utf-8";
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+body {
+    font-family: Arial,"Hiragino Sans","Hiragino Kaku Gothic ProN","Meiryo",sans-serif;
+}
+.main_logo .mainvisual {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.main_logo {
+    position: relative;
+}
+.logo {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.header {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.header h2,.fashon_style h2 {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.header--p {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 13px;
+}
+.content {
+    max-width: 1200px;
+    padding: 0 5%;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+.archive {
+    text-align: center;
+    position: relative;
+}
+.archive--img {
+    width: 100%;
+}
+.archive--div {
+    margin: 0 auto;
+    position: absolute;
+    top: 40%;
+    right: 0;
+    left: 0;
+    width: 290px;
+    color: white;
+    background-color: black;
+    opacity: 0.5;
+}
+.new {
+    text-align: center;
+    position: relative;
+}
+.new--img {
+    width: 100%;
+}
+.new--div {
+    margin: 0 auto;
+    position: absolute;
+    top: 40%;
+    right: 0;
+    left: 0;
+    width: 290px;
+    color: white;
+    background-color: black;
+    opacity: 0.5;
+}
+.wrap1 {
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    gap: 20px;
+}
+.readmore {
+    text-align: center;
+    margin-top: 20px;
+}
+.readmore a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    padding: 10px 25px;
+    border: 1px solid grey;
+    /* text-align: center; */
+}
+/* .fashon img {
+    width: 100%;
+} */
+.fashon_style {
+    /* margin: 0 auto; */
+    width: 100%;
+    height: 520px;
+    background-image: url(../img/fashion.jpg);
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-top: 50px;
+}
+.fashon_style--p {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 13px;
+}
+.catalog_antique {
+    background-color: #ddd;
+    padding: 60px 50px;
+}
+ .catalog {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+ }
+ .antique {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 20px;
+ }
+ /* .catalog--img,.antique--img {
+    width: 100%;
+ } */
+ .catalog--li,.antique--li {
+    width: 50%;
+ }
+ .catalog--li h2,.antique--li h2 {
+    text-align: center;
+ }
+ .catalog--li p,.antique--li p {
+    margin: 10px 0;
+ }
+ .footer {
+    color: white;
+    background-color: black;
+    padding: 100px 50px;
+ }
+ .footer--ul {
+    display: flex;
+    align-items: center;
+ }
+ .footer--ul--li {
+    flex: 1;
+ }
+ .footer--ul--li--ul li {
+    list-style-type: disc;
+    margin-left: 1em;
+ }
+ .copy {
+    text-align: center;
+    columns: black;
+    padding: 20px 0;
+    background-color: #ddd;
+ }
+
+ @media  screen and (max-width: 896px) {
+    .wrap1 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        text-align: center;
+        gap: 20px;
+    }
+    .catalog--li,.antique--li {
+        width: 100%;
+     }
+    .catalog {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+     }
+     .antique {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+     }
+}
